@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" initialize-with-hyphen="false" page-range-format="expanded" default-locale="en-US">
+  <info>
+    <title>Modified IEEE</title>
+    <id>http://www.zotero.org/styles/modified-ieee</id>
+    <link href="http://www.zotero.org/styles/modified-ieee" rel="self"/>
+    <link href="http://www.ieee.org/documents/ieeecitationref.pdf" rel="documentation"/>
+    <author>
+      <name>Sebastian Karcher</name>
+      <email>skarcher@maxwell.syr.edu</email>
+    </author>
+    <contributor>
+      <name>Rintze M. Zelle</name>
+      <uri>http://rintze.zelle.me/</uri>
+    </contributor>
+    <contributor>
+      <name>Simon Kornblith</name>
+      <uri>http://simonster.com</uri>
+    </contributor>
+    <contributor>
+      <name>Bruan D. E. McKenzie</name>
+    </contributor>
+    <category citation-format="numeric"/>
+    <category field="engineering"/>
+    <category field="science"/>
+    <updated>2012-10-30T22:35:32+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <locale xml:lang="en">
+    <terms>
+      <term name="editor" form="short">ed.</term>
+      <term name="editors" form="short">eds.</term>
+      <term name="translator" form="short">trans.</term>
+      <term name="translators" form="short">trans.</term>
+      <term name="volume" form="short">vol.</term>
+      <term name="volumes" form="short">vols.</term>
+      <term name="number" form="short">no.</term>
+      <term name="issue" form="short">no.</term>
+      <term name="page" form="short">p.</term>
+      <term name="pages" form="short">pp.</term>
+      <term name="chapter" form="short">ch.</term>
+      <term name="part" form="short">pt.</term>
+      <term name="section" form="short">sec.</term>
+      <term name="sections" form="short">secs.</term>
+      <term name="article" form="short">art.</term>
+      <term name="supplement" form="short">suppl.</term>
+      <term name="edition" form="short">ed.</term>
+      <term name="reprint" form="short">repr.</term>
+      <term name="revision" form="short">rev.</term>
+      <term name="version" form="short">vers.</term>
+      <term name="original-date" form="short">orig.</term>
+      <term name="accessed" form="short">accessed</term>
+      <term name="retrieved" form="short">retrieved</term>
+      <term name="available" form="short">available</term>
+      <term name="from" form="short">from</term>
+      <term name="by" form="short">by</term>
+      <term name="in" form="short">in</term>
+      <term name="circa" form="short">ca.</term>
+      <term name="see" form="short">see</term>
+      <term name="see-also" form="short">see also</term>
+      <term name="et-al" form="short">et al.</term>
+      <term name="and-others" form="short">and others</term>
+      <term name="anonymous" form="short">anonymous</term>
+      <term name="advisory" form="short">advisory</term>
+      <term name="al" form="short">al</term>
+      <term name="album" form="short">album</term>
+      <term name="appendix" form="short">app.</term>
+      <term name="archive" form="short">arch.</term>
+      <term name="archives" form="short">arch.</term>
+      <term name="audio-recording" form="short">audio recording</term>
+      <term name="bill" form="short">bill</term>
+      <term name="blog" form="short">blog</term>
+      <term name="broadcast" form="short">broadcast</term>
+      <term name="catalog" form="short">catalog</term>
+      <term name="chart" form="short">chart</term>
+      <term name="classical" form="short">classical</term>
+      <term name="collection" form="short">collection</term>
+      <term name="column" form="short">column</term>
+      <term name="conference-paper" form="short">conf. paper</term>
+      <term name="conference-proceedings" form="short">conf. proc.</term>
+      <term name="database" form="short">database</term>
+      <term name="dictionary" form="short">dict.</term>
+      <term name="electronic" form="short">electronic</term>
+      <term name="encyclopedia" form="short">encycl.</term>
+      <term name="executive-order" form="short">exec. order</term>
+      <term name="film" form="short">film</term>
+      <term name="finding-aid" form="short">finding aid</term>
+      <term name="government-document" form="short">gov. doc.</term>
+      <term name="grant" form="short">grant</term>
+      <term name="hearing" form="short">hearing</term>
+      <term name="instant-message" form="short">instant message</term>
+      <term name="interview" form="short">interview</term>
+      <term name="journal" form="short">journal</term>
+      <term name="legal-case" form="short">legal case</term>
+      <term name="legislation" form="short">legislation</term>
+      <term name="letter" form="short">letter</term>
+      <term name="magazine" form="short">magazine</term>
+      <term name="manuscript" form="short">manuscript</term>
+      <term name="map" form="short">map</term>
+      <term name="microform" form="short">microform</term>
+      <term name="motion-picture" form="short">motion picture</term>
+      <term name="musical-score" form="short">musical score</term>
+      <term name="newspaper" form="short">newspaper</term>
+      <term name="online" form="short">online</term>
+      <term name="painting" form="short">painting</term>
+      <term name="pamphlet" form="short">pamphlet</term>
+      <term name="patent" form="short">patent</term>
+      <term name="personal-communication" form="short">personal communication</term>
+      <term name="podcast" form="short">podcast</term>
+      <term name="post" form="short">post</term>
+      <term name="post-weblog" form="short">blog post</term>
+      <term name="presentation" form="short">presentation</term>
+      <term name="press-release" form="short">press release</term>
+      <term name="programming-language" form="short">programming language</term>
+      <term name="radio-broadcast" form="short">radio broadcast</term>
+      <term name="regulation" form="short">regulation</term>
+      <term name="report" form="short">report</term>
+      <term name="resolution" form="short">resolution</term>
+      <term name="review" form="short">review</term>
+      <term name="rule" form="short">rule</term>
+      <term name="software" form="short">software</term>
+      <term name="song" form="short">song</term>
+      <term name="speech" form="short">speech</term>
+      <term name="standard" form="short">standard</term>
+      <term name="statute" form="short">statute</term>
+      <term name="thesis" form="short">thesis</term>
+      <term name="treaty" form="short">treaty</term>
+      <term name="treaty" form="short">treaty</term>
+      <term name="unpublished" form="short">unpublished</term>
+      <term name="video" form="short">video</term>
+      <term name="video-recording" form="short">video recording</term>
+      <term name="webpage" form="short">webpage</term>
+      <term name="website" form="short">website</term>
+    </terms>
+    <date form="text">
+      <date-part name="month" suffix=" "/>
+      <date-part name="day" suffix=", "/>
+      <date-part name="year"/>
+    </date>
+    <date form="numeric">
+      <date-part name="month" form="numeric-leading-zeros" suffix="/"/>
+      <date-part name="day" form="numeric-leading-zeros" suffix="/"/>
+      <date-part name="year"/>
+    </date>
+  </locale>
+  <macro name="author">
+    <names variable="author">
+      <name form="long" initialize-with="." delimiter=", " delimiter-precedes-last="always"/>
+      <label form="long" prefix=" (" suffix=")"/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text macro="title"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="DOI">
+        <text term="from" form="short" text-case="capitalize-first"/>
+        <text> </text>
+        <text>DOI: </text>
+        <text variable="DOI"/>
+      </if>
+      <else-if variable="URL">
+        <text term="from" form="short" text-case="capitalize-first"/>
+        <text> </text>
+        <text variable="URL"/>
+        <text>.</text>
+        <text> </text>
+        <text term="accessed" form="short" text-case="capitalize-first"/>
+        <text> </text>
+        <date variable="accessed">
+          <date-part name="month" form="short"/>
+          <text> </text>
+          <date-part name="day" suffix=", "/>
+          <date-part name="year"/>
+        </date>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="book">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else-if type="chapter paper-conference">
+        <text variable="title"/>
+      </else-if>
+      <else>
+        <text variable="title" quotes="true"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="editor">
+    <names variable="editor">
+      <name form="long" initialize-with="." delimiter=", " delimiter-precedes-last="always"/>
+      <label form="short" prefix=" (" suffix=")"/>
+    </names>
+  </macro>
+  <macro name="publisher">
+    <text variable="publisher"/>
+    <text>, </text>
+    <text variable="publisher-place"/>
+  </macro>
+  <macro name="container-title">
+    <choose>
+      <if type="chapter paper-conference">
+        <text variable="container-title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="container-title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="collection-title">
+    <text variable="collection-title" font-style="italic"/>
+  </macro>
+  <macro name="volume">
+    <choose>
+      <if variable="volume">
+        <text term="volume" form="short"/>
+        <text> </text>
+        <text variable="volume"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="issue">
+    <choose>
+      <if variable="issue">
+        <text term="issue" form="short"/>
+        <text> </text>
+        <text variable="issue"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="pages">
+    <choose>
+      <if variable="page">
+        <text term="page" form="short"/>
+        <text> </text>
+        <text variable="page"/>
+      </if>
+      <else-if variable="page-range">
+        <text term="pages" form="short"/>
+        <text> </text>
+        <text variable="page-range"/>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="month">
+    <date variable="issued">
+      <date-part name="month" form="short"/>
+    </date>
+  </macro>
+  <macro name="day">
+    <date variable="issued">
+      <date-part name="day"/>
+    </date>
+  </macro>
+  <macro name="date">
+    <date variable="issued">
+      <date-part name="month" form="short"/>
+      <text> </text>
+      <date-part name="day" suffix=", "/>
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="location">
+    <choose>
+      <if variable="event-place">
+        <text variable="event-place"/>
+      </if>
+      <else-if variable="publisher-place">
+        <text variable="publisher-place"/>
+      </else-if>
+    </choose>
+  </macro>
+  <macro name="event">
+    <text variable="event"/>
+    <text>, </text>
+    <text macro="location"/>
+  </macro>
+  <macro name="edition">
+    <choose>
+      <if variable="edition">
+        <text variable="edition"/>
+        <text term="edition" form="short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="version">
+    <choose>
+      <if variable="version">
+        <text variable="version"/>
+        <text term="version" form="short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="number">
+    <choose>
+      <if variable="number">
+        <text variable="number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="series">
+    <choose>
+      <if variable="collection-title">
+        <text macro="collection-title"/>
+        <text>, </text>
+        <text macro="volume"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="jurisdiction">
+    <text variable="jurisdiction"/>
+  </macro>
+  <macro name="court">
+    <text variable="court"/>
+  </macro>
+  <macro name="legislative-body">
+    <text variable="legislative-body"/>
+  </macro>
+  <macro name="session">
+    <text variable="session"/>
+  </macro>
+  <macro name="references">
+    <text variable="references"/>
+  </macro>
+  <macro name="medium">
+    <choose>
+      <if variable="medium">
+        <text variable="medium"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="archive">
+    <text variable="archive"/>
+  </macro>
+  <macro name="archive-place">
+    <text variable="archive-place"/>
+  </macro>
+  <macro name="archive-collection">
+    <text variable="archive-collection"/>
+  </macro>
+  <macro name="archive-location">
+    <text variable="archive-location"/>
+  </macro>
+  <macro name="event-title">
+    <text variable="event-title"/>
+  </macro>
+  <macro name="event-date">
+    <date variable="event-date">
+      <date-part name="month" form="short"/>
+      <text> </text>
+      <date-part name="day" suffix=", "/>
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="URL">
+    <choose>
+      <if variable="URL">
+        <text variable="URL"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="DOI">
+    <choose>
+      <if variable="DOI">
+        <text>DOI: </text>
+        <text variable="DOI"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="note">
+    <choose>
+      <if variable="note">
+        <text variable="note"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="annote">
+    <choose>
+      <if variable="annote">
+        <text variable="annote"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="abstract">
+    <choose>
+      <if variable="abstract">
+        <text variable="abstract"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="keyword">
+    <choose>
+      <if variable="keyword">
+        <text variable="keyword"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="number-of-volumes">
+    <choose>
+      <if variable="number-of-volumes">
+        <text variable="number-of-volumes"/>
+        <text term="volumes" form="short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="citation-number">
+    <choose>
+      <if variable="citation-number">
+        <text variable="citation-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="citation-label">
+    <choose>
+      <if variable="citation-label">
+        <text variable="citation-label"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="first-reference-note-number">
+    <choose>
+      <if variable="first-reference-note-number">
+        <text variable="first-reference-note-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="ibid">
+    <choose>
+      <if variable="ibid">
+        <text variable="ibid"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="near-note">
+    <choose>
+      <if variable="near-note">
+        <text variable="near-note"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="locator">
+    <choose>
+      <if variable="locator">
+        <text variable="locator"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="page">
+    <choose>
+      <if variable="page">
+        <text variable="page"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="page-first">
+    <choose>
+      <if variable="page-first">
+        <text variable="page-first"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="chapter-number">
+    <choose>
+      <if variable="chapter-number">
+        <text variable="chapter-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="part-number">
+    <choose>
+      <if variable="part-number">
+        <text variable="part-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="section-number">
+    <choose>
+      <if variable="section-number">
+        <text variable="section-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="article-number">
+    <choose>
+      <if variable="article-number">
+        <text variable="article-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="supplement-number">
+    <choose>
+      <if variable="supplement-number">
+        <text variable="supplement-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="issue-title">
+    <choose>
+      <if variable="issue-title">
+        <text variable="issue-title"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="issue-subtitle">
+    <choose>
+      <if variable="issue-subtitle">
+        <text variable="issue-subtitle"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="volume-title">
+    <choose>
+      <if variable="volume-title">
+        <text variable="volume-title"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="volume-subtitle">
+    <choose>
+      <if variable="volume-subtitle">
+        <text variable="volume-subtitle"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-number">
+    <choose>
+      <if variable="collection-number">
+        <text variable="collection-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title">
+    <choose>
+      <if variable="collection-title">
+        <text variable="collection-title"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-subtitle">
+    <choose>
+      <if variable="collection-subtitle">
+        <text variable="collection-subtitle"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="call-number">
+    <choose>
+      <if variable="call-number">
+        <text variable="call-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="dimensions">
+    <choose>
+      <if variable="dimensions">
+        <text variable="dimensions"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="scale">
+    <choose>
+      <if variable="scale">
+        <text variable="scale"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-number">
+    <choose>
+      <if variable="event-number">
+        <text variable="event-number"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-subtitle">
+    <choose>
+      <if variable="event-subtitle">
+        <text variable="event-subtitle"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-main">
+    <choose>
+      <if variable="event-title-main">
+        <text variable="event-title-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-sub">
+    <choose>
+      <if variable="event-title-sub">
+        <text variable="event-title-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-full">
+    <choose>
+      <if variable="event-title-full">
+        <text variable="event-title-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-short">
+    <choose>
+      <if variable="event-title-short">
+        <text variable="event-title-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-translated">
+    <choose>
+      <if variable="event-title-translated">
+        <text variable="event-title-translated"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-translated-short">
+    <choose>
+      <if variable="event-title-translated-short">
+        <text variable="event-title-translated-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="event-title-translated-full">
+    <choose>
+      <if variable="event-title-translated-full">
+        <text variable="event-title-translated-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="original-title">
+    <choose>
+      <if variable="original-title">
+        <text variable="original-title"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="original-title-main">
+    <choose>
+      <if variable="original-title-main">
+        <text variable="original-title-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="original-title-sub">
+    <choose>
+      <if variable="original-title-sub">
+        <text variable="original-title-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="original-title-full">
+    <choose>
+      <if variable="original-title-full">
+        <text variable="original-title-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="original-title-short">
+    <choose>
+      <if variable="original-title-short">
+        <text variable="original-title-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-short">
+    <choose>
+      <if variable="title-short">
+        <text variable="title-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-main">
+    <choose>
+      <if variable="title-main">
+        <text variable="title-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-sub">
+    <choose>
+      <if variable="title-sub">
+        <text variable="title-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-full">
+    <choose>
+      <if variable="title-full">
+        <text variable="title-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-translated">
+    <choose>
+      <if variable="title-translated">
+        <text variable="title-translated"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-translated-main">
+    <choose>
+      <if variable="title-translated-main">
+        <text variable="title-translated-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-translated-sub">
+    <choose>
+      <if variable="title-translated-sub">
+        <text variable="title-translated-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-translated-full">
+    <choose>
+      <if variable="title-translated-full">
+        <text variable="title-translated-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title-translated-short">
+    <choose>
+      <if variable="title-translated-short">
+        <text variable="title-translated-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-short">
+    <choose>
+      <if variable="container-title-short">
+        <text variable="container-title-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-main">
+    <choose>
+      <if variable="container-title-main">
+        <text variable="container-title-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-sub">
+    <choose>
+      <if variable="container-title-sub">
+        <text variable="container-title-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-full">
+    <choose>
+      <if variable="container-title-full">
+        <text variable="container-title-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-translated">
+    <choose>
+      <if variable="container-title-translated">
+        <text variable="container-title-translated"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-translated-main">
+    <choose>
+      <if variable="container-title-translated-main">
+        <text variable="container-title-translated-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-translated-sub">
+    <choose>
+      <if variable="container-title-translated-sub">
+        <text variable="container-title-translated-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-translated-full">
+    <choose>
+      <if variable="container-title-translated-full">
+        <text variable="container-title-translated-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="container-title-translated-short">
+    <choose>
+      <if variable="container-title-translated-short">
+        <text variable="container-title-translated-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-short">
+    <choose>
+      <if variable="collection-title-short">
+        <text variable="collection-title-short"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-main">
+    <choose>
+      <if variable="collection-title-main">
+        <text variable="collection-title-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-sub">
+    <choose>
+      <if variable="collection-title-sub">
+        <text variable="collection-title-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-full">
+    <choose>
+      <if variable="collection-title-full">
+        <text variable="collection-title-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-translated">
+    <choose>
+      <if variable="collection-title-translated">
+        <text variable="collection-title-translated"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-translated-main">
+    <choose>
+      <if variable="collection-title-translated-main">
+        <text variable="collection-title-translated-main"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-translated-sub">
+    <choose>
+      <if variable="collection-title-translated-sub">
+        <text variable="collection-title-translated-sub"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-translated-full">
+    <choose>
+      <if variable="collection-title-translated-full">
+        <text variable="collection-title-translated-full"/>
+      </if>
+    </choose>
+  </macro>
+  <macro name="collection-title-translated-short">
+    <choose>
+      <if variable="collection-title-translated-short">
+        <text variable="collection-title-translated-short"/>
+      </if>
+    </choose>
+  </macro>
+  <citation>
+    <layout suffix="." delimiter="; " prefix="[" suffix="]">
+      <text macro="citation-number"/>
+    </layout>
+  </citation>
+  <bibliography suffix=".">
+    <sort>
+      <key macro="citation-number"/>
+    </sort>
+    <layout suffix="." delimiter="; " prefix="[" suffix="]">
+      <text macro="citation-number"/>
+      <text> </text>
+      <group delimiter=", ">
+        <text macro="author"/>
+        <text macro="title"/>
+        <text macro="container-title"/>
+        <text macro="collection-title"/>
+        <text macro="editor"/>
+        <text macro="translator"/>
+        <text macro="publisher"/>
+        <text macro="event"/>
+        <text macro="archive"/>
+        <text macro="archive-place"/>
+        <text macro="archive-collection"/>
+        <text macro="archive-location"/>
+        <text macro="event-title"/>
+        <text macro="event-date"/>
+        <text macro="URL"/>
+        <text macro="DOI"/>
+        <text macro="note"/>
+        <text macro="annote"/>
+        <text macro="abstract"/>
+        <text macro="keyword"/>
+        <text macro="number-of-volumes"/>
+        <text macro="citation-number"/>
+        <text macro="citation-label"/>
+        <text macro="first-reference-note-number"/>
+        <text macro="ibid"/>
+        <text macro="near-note"/>
+        <text macro="locator"/>
+        <text macro="page"/>
+        <text macro="page-first"/>
+        <text macro="chapter-number"/>
+        <text macro="part-number"/>
+        <text macro="section-number"/>
+        <text macro="article-number"/>
+        <text macro="supplement-number"/>
+        <text macro="issue-title"/>
+        <text macro="issue-subtitle"/>
+        <text macro="volume-title"/>
+        <text macro="volume-subtitle"/>
+        <text macro="collection-number"/>
+        <text macro="collection-title"/>
+        <text macro="collection-subtitle"/>
+        <text macro="call-number"/>
+        <text macro="dimensions"/>
+        <text macro="scale"/>
+        <text macro="event-number"/>
+        <text macro="event-subtitle"/>
+        <text macro="event-title-main"/>
+        <text macro="event-title-sub"/>
+        <text macro="event-title-full"/>
+        <text macro="event-title-short"/>
+        <text macro="event-title-translated"/>
+        <text macro="event-title-translated-short"/>
+        <text macro="event-title-translated-full"/>
+        <text macro="original-title"/>
+        <text macro="original-title-main"/>
+        <text macro="original-title-sub"/>
+        <text macro="original-title-full"/>
+        <text macro="original-title-short"/>
+        <text macro="title-short"/>
+        <text macro="title-main"/>
+        <text macro="title-sub"/>
+        <text macro="title-full"/>
+        <text macro="title-translated"/>
+        <text macro="title-translated-main"/>
+        <text macro="title-translated-sub"/>
+        <text macro="title-translated-full"/>
+        <text macro="title-translated-short"/>
+        <text macro="container-title-short"/>
+        <text macro="container-title-main"/>
+        <text macro="container-title-sub"/>
+        <text macro="container-title-full"/>
+        <text macro="container-title-translated"/>
+        <text macro="container-title-translated-main"/>
+        <text macro="container-title-translated-sub"/>
+        <text macro="container-title-translated-full"/>
+        <text macro="container-title-translated-short"/>
+        <text macro="collection-title-short"/>
+        <text macro="collection-title-main"/>
+        <text macro="collection-title-sub"/>
+        <text macro="collection-title-full"/>
+        <text macro="collection-title-translated"/>
+        <text macro="collection-title-translated-main"/>
+        <text macro="collection-title-translated-sub"/>
+        <text macro="collection-title-translated-full"/>
+        <text macro="collection-title-translated-short"/>
+        <text macro="access"/>
+      </group>
+    </layout>
+  </bibliography>
+</style> 
