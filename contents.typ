@@ -109,12 +109,37 @@
     #line(length: 100%, stroke: 5pt + mprg-blue_1.lighten(50%) )
 ]
 = MPRGの枝刈り手法
-== ▪︎ AFR
-#align(center)[
-    // 太い青い線
-    #line(length: 100%, stroke: 5pt + mprg-blue_1.lighten(50%) )
-]
-
+#grid(
+    columns:(1fr,1fr),gutter: 1em,
+    [
+        //左側：説明
+        == ▪︎ 事前学習で得た知識を維持する非構造枝刈り
+        - 事前学習で得た知識をどのように評価するのか#linebreak()
+            特異値分解（SVD）を用いて得られる特異値の平均値を事前学習で得た知識として評価
+        - SVDの定義: 任意の $m times n$ 行列 $bold(A)$ を以下のように分解
+            #v(-.5em)
+            #align(center)[
+                #stack(
+                dir: ltr,
+                spacing: .5em,
+                align(horizon)[$
+                        bold(A) = bold(U) bold(Sigma) bold(V)^T = sum_(i=1)^r sigma_i bold(u)_i bold(v)_i^T =
+                    $],
+                [#v(-.4em)#figure(image("image/svd.svg", width: 50%))],
+                )
+            ]
+            #v(-.75em)
+            ここで，$bold(U)$ ($m times m$) と $bold(V)$ ($n times n$) は直交行列 $bold(Sigma)$ ($m times n$) が特異値 $sigma_1 >= sigma_2 >= dots.h >= sigma_r > 0$  を対角成分に持つ広義対角行列
+        - *特異値の意義*: $sigma_i$ は対応する特異ベクトルが捉える「方向」の重要度やエネルギーの大きさを示す
+    ],
+    [
+        //右側：図
+        #figure(
+        image("image/AFR.png",width: 90%)
+        )
+        
+    ]
+)
 
 #grid(
     columns:(1fr,1fr),gutter: 1em,
@@ -132,7 +157,7 @@
     [
         //右側：図
         #figure(
-        image("image/UPKD.png",width: 80%)
+        image("image/UPKD.png",width: 90%)
         )
         
     ]
